@@ -8,18 +8,26 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bower_components/simple-undo/foundation/css/foundation.css">
+
+    <script src="bower_components/simple-undo/modernizr/modernizr.js"></script>
+    <script src="bower_components/simple-undo/jquery/dist/jquery.min.js"></script>
+
+    <script src="bower_components/simple-undo/lib/simple-undo.js"></script>
+    <script type="text/javascript" src="undo-redo.js"></script>
+
     <title>Directional motion based undo/redo - Anagha Dudihalli</title>
   </head>
   <body>
   <div class="container h-100">
     <div class="row h-100 justify-content-center align-items-center">
-      <form class="col-11">
+      <div class="col-md-10">
         <div class="form-group">
-          <input type="text" class="form-control" id="inputTextbox" placeholder="Enter your text here">
+          <input type="text" class="form-control form-control-lg" id="editor" name="editor" placeholder="Enter your text here">
         </div>
-        <button type="submit" class="btn btn-primary">Undo</button>
-        <button type="submit" class="btn btn-primary ml-4">Redo</button>
-      </form>
+        <button type="button" class="btn btn-primary" id="undo">Undo</button>
+        <button type="button" class="ml-4 btn btn-primary" id="redo">Redo</button>
+      </div>
     </div>
   </div>
 
