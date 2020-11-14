@@ -1,8 +1,10 @@
 # directional-motion-based-undo-redo
 
 ## System Requirements
-- An Android phone that has an accelerometer built-in.
-- Latest version of Mozilla Firefox or Google Chrome.
+- For running the code, any modern computer will work.
+- For running the application,
+    - An Android phone that has an accelerometer built-in.
+    - Latest version of Mozilla Firefox or Google Chrome.
 
 ## Instructions to run the code
 - Download ZIP from the repo - https://github.com/anaghadudihalli/directional-motion-based-undo-redo.
