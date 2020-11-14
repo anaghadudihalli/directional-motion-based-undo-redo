@@ -6,7 +6,7 @@
 
 ## Instructions to run the code
 - This project uses accelerometer data. So, even though you can open the ```index.html``` file on a desktop, you cannot test the undo and redo features.
-- Steps to run this code on a computer while debugging on an Android device. (steps taken from [here])(https://developers.google.com/web/tools/chrome-devtools/remote-debugging):
+- Steps to run this code on a computer while debugging on an Android device. (steps taken from [here](https://developers.google.com/web/tools/chrome-devtools/remote-debugging)):
     - Connect the android phone with your computer using a USB cable.
     - Open the Developer Options screen on your Android. See [Configure On-Device Developer Options](https://developer.android.com/studio/debug/dev-options).
     - Select Enable USB Debugging.
