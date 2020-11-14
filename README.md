@@ -5,7 +5,7 @@
 - Latest version of Mozilla Firefox or Google Chrome browsers.
 
 ## Instructions to run the code
-- Download ZIP from the [repo](https://github.com/anaghadudihalli/directional-motion-based-undo-redo).
+- Download ZIP from the repo - https://github.com/anaghadudihalli/directional-motion-based-undo-redo.
 - This project uses accelerometer data. So, even though you can open the ```index.html``` file on a desktop, you cannot test the undo and redo features.
 - Steps to run this code on a computer while debugging on an Android device (steps taken from [here](https://developers.google.com/web/tools/chrome-devtools/remote-debugging)):
     - Connect the android phone with your computer using a USB cable.
