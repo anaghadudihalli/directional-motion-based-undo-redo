@@ -5,3 +5,12 @@ body,html{
 #editor {
     border-radius: 15px;
 }
+
+#student-name {
+    float: right;
+    margin-top: -15%;
+}
+
+#project-name {
+    margin-top: 20%;
+}
