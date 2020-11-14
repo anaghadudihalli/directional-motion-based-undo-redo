@@ -27,7 +27,7 @@
 - Enter your text in the textbox.
 - Tilt your phone to the left, at approximately more than 45° to undo a character.
 - Tilt your phone to the right, at approximately more than 45° to redo a character.
-- Watch a quick demo here - https://youtu.be/QtZpRcaXnDM.
+- Watch a quick demo here - https://youtu.be/FDx6ZO2f8eo.
 
 ## Credits
 
