@@ -24,8 +24,7 @@ $(function () {
     });
 
     $('input').keyup(function () {
-        var keyChar = $(this).val().substr(-1);
-        history.save(keyChar.toString());
+        history.save();
     });
 
     updateButtons(history);
