@@ -49,13 +49,13 @@
 		this.onUpdate();
 	};
 
-	SimpleUndo.prototype.save = function() {
+	SimpleUndo.prototype.save = function(newChar) {
 		this.provider(function(current) {
 			truncate(this.stack, this.maxLength);
 			this.position = Math.min(this.position,this.stack.length - 1);
 
 			this.stack = this.stack.slice(0, this.position + 1);
-			this.stack.push(current);
+			this.stack.push(current + newChar);
 			this.position++;
 			this.onUpdate();
 		}.bind(this));

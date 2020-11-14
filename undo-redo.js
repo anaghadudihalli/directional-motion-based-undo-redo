@@ -19,13 +19,13 @@ $(function () {
         onUpdate: function () {
             //onUpdate is called in constructor, making history undefined
             if (!history) return;
-
             updateButtons(history);
         }
     });
 
-    $('#editor').on('keydown', function () {
-        history.save();
+    $('input').keyup(function () {
+        var keyChar = $(this).val().substr(-1);
+        history.save(keyChar.toString());
     });
 
     updateButtons(history);
@@ -51,4 +51,3 @@ $(function () {
     }
     window.addEventListener('deviceorientation', handleOrientation);
 });
-
